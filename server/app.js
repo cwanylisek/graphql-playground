@@ -7,7 +7,7 @@ const app = express();
 
 // mongoose database connect
 mongoose.connect(
-    "mongodb+srv://cwanylisek:########@clustergraphql-scurx.mongodb.net/test?retryWrites=true&w=majority",
+    "mongodb+srv://cwanylisek:test####@clustergraphql-scurx.mongodb.net/test?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
 )
     .then(() => console.log("Connected to MongoDB Atlas"))
